@@ -1,3 +1,2 @@
 2;Paracetamol;B12;5,50;11
-1;Dipirona;b13;2,75;13
-3;Ibuprofeno;abd;5,50;2
+1;Dipirona;b13;2,75;11
