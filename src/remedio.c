@@ -434,10 +434,11 @@ int listarEstoqueBaixo(Remedio *estoque, int qtdRemedio){
                     printf("Nome: %s\n", estoque[i].nome);
                     printf("Quantidade: %d\n", estoque[i].quant_estoque);
                     linha();
-                    pausar();
-                    return 1;
+                }
+                else{
+                    return 0;
                 }
             }
-        return 0;
         pausar();
+        return 1;
 }
